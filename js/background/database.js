@@ -144,6 +144,7 @@ var _database = {
         // /mini
         match += u.attr('path');
 
+	// TODO: For lexis, want only the "pdactivityid" query param.
         // [?q=123]
         if (options.query && query && query.length !== 0) {
             match += ("?" + query);
